@@ -15,6 +15,7 @@
 		C79744322898134700223DC9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C79744312898134700223DC9 /* README.md */; };
 		C7974434289816E500223DC9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7974433289816E500223DC9 /* Order.swift */; };
 		C7974436289819FF00223DC9 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7974435289819FF00223DC9 /* AddressView.swift */; };
+		C797443828982DCE00223DC9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797443728982DCE00223DC9 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C79744312898134700223DC9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7974433289816E500223DC9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		C7974435289819FF00223DC9 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		C797443728982DCE00223DC9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C79744232898126B00223DC9 /* ContentView.swift */,
 				C7974433289816E500223DC9 /* Order.swift */,
 				C7974435289819FF00223DC9 /* AddressView.swift */,
+				C797443728982DCE00223DC9 /* CheckoutView.swift */,
 				C79744252898126C00223DC9 /* Assets.xcassets */,
 				C79744272898126C00223DC9 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			files = (
 				C7974434289816E500223DC9 /* Order.swift in Sources */,
 				C7974436289819FF00223DC9 /* AddressView.swift in Sources */,
+				C797443828982DCE00223DC9 /* CheckoutView.swift in Sources */,
 				C79744242898126B00223DC9 /* ContentView.swift in Sources */,
 				C79744222898126B00223DC9 /* CupcakeCornerApp.swift in Sources */,
 			);
