@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view for presenting the delivery details of a cupcake order, as well as a link to a view for checking out.
 struct AddressView: View {
     @ObservedObject var order: Order
     

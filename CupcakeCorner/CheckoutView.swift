@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view for presenting an overview of an order and a confirmation button.
 struct CheckoutView: View {
     @ObservedObject var order: Order
     

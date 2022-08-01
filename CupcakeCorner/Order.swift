@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A class used to create instances of cupcake orders.
 class Order: ObservableObject {
     static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     

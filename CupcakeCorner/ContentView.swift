@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// The main view for Cupcake Corner, presenting options for the quantity, type, and special requests for cupcakes.
 struct ContentView: View {
     @StateObject var order = Order()
     
