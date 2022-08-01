@@ -29,4 +29,13 @@ class Order: ObservableObject {
     @Published var streetAddress = ""
     @Published var city = ""
     @Published var zip = ""
+    
+    /// A Boolean value indicating whether any fields of an address have no characters.
+    var hasValidAddress: Bool {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+            return false
+        }
+        
+        return true
+    }
 }

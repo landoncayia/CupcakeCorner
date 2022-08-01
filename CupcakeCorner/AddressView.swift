@@ -27,6 +27,7 @@ struct AddressView: View {
                     Text("Check out")
                 }
             }
+            .disabled(order.hasValidAddress == false)
         }
         .navigationTitle("Delivery details")
         // smaller, centered navigation title
