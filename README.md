@@ -22,7 +22,9 @@ The idea for this project came from Paul Hudson's *100 Days of SwiftUI*. I may e
 
 Screenshots will go here when they are ready.
 
-<!--<p float="left">-->
-<!--    <img src="screenshots/cupcakecorner01.png" alt="CupcakeCorner Screenshot 1" width="341">-->
-<!--    <img src="screenshots/cupcakecorner02.png" alt="CupcakeCorner Screenshot 2" width="341">-->
-<!--</p>-->
+<p float="left">
+    <img src="screenshots/cupcake-corner1.png" alt="CupcakeCorner Screenshot 1" width="341">
+    <img src="screenshots/cupcake-corner2.png" alt="CupcakeCorner Screenshot 2" width="341">
+    <img src="screenshots/cupcake-corner3.png" alt="CupcakeCorner Screenshot 2" width="341">
+    <img src="screenshots/cupcake-corner4.png" alt="CupcakeCorner Screenshot 2" width="341">
+</p>

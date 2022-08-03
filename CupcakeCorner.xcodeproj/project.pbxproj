@@ -17,6 +17,10 @@
 		C7974436289819FF00223DC9 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7974435289819FF00223DC9 /* AddressView.swift */; };
 		C797443828982DCE00223DC9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797443728982DCE00223DC9 /* CheckoutView.swift */; };
 		C7F24224289B1E4C00B71E44 /* OrderWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F24223289B1E4C00B71E44 /* OrderWrapper.swift */; };
+		C7F2422A289B247500B71E44 /* cupcake-corner4.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F24226289B247500B71E44 /* cupcake-corner4.png */; };
+		C7F2422B289B247500B71E44 /* cupcake-corner3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F24227289B247500B71E44 /* cupcake-corner3.png */; };
+		C7F2422C289B247500B71E44 /* cupcake-corner2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F24228289B247500B71E44 /* cupcake-corner2.png */; };
+		C7F2422D289B247500B71E44 /* cupcake-corner1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F24229289B247500B71E44 /* cupcake-corner1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		C7974435289819FF00223DC9 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		C797443728982DCE00223DC9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		C7F24223289B1E4C00B71E44 /* OrderWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderWrapper.swift; sourceTree = "<group>"; };
+		C7F24226289B247500B71E44 /* cupcake-corner4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cupcake-corner4.png"; sourceTree = "<group>"; };
+		C7F24227289B247500B71E44 /* cupcake-corner3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cupcake-corner3.png"; sourceTree = "<group>"; };
+		C7F24228289B247500B71E44 /* cupcake-corner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cupcake-corner2.png"; sourceTree = "<group>"; };
+		C7F24229289B247500B71E44 /* cupcake-corner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cupcake-corner1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			children = (
 				C797442F289812F800223DC9 /* .gitignore */,
 				C79744312898134700223DC9 /* README.md */,
+				C7F24225289B247500B71E44 /* screenshots */,
 				C79744202898126B00223DC9 /* CupcakeCorner */,
 				C797441F2898126B00223DC9 /* Products */,
 			);
@@ -83,6 +92,17 @@
 				C79744282898126C00223DC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7F24225289B247500B71E44 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C7F24226289B247500B71E44 /* cupcake-corner4.png */,
+				C7F24227289B247500B71E44 /* cupcake-corner3.png */,
+				C7F24228289B247500B71E44 /* cupcake-corner2.png */,
+				C7F24229289B247500B71E44 /* cupcake-corner1.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79744292898126C00223DC9 /* Preview Assets.xcassets in Resources */,
+				C7F2422D289B247500B71E44 /* cupcake-corner1.png in Resources */,
 				C7974430289812F800223DC9 /* .gitignore in Resources */,
 				C79744322898134700223DC9 /* README.md in Resources */,
+				C7F2422B289B247500B71E44 /* cupcake-corner3.png in Resources */,
 				C79744262898126C00223DC9 /* Assets.xcassets in Resources */,
+				C7F2422C289B247500B71E44 /* cupcake-corner2.png in Resources */,
+				C7F2422A289B247500B71E44 /* cupcake-corner4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
