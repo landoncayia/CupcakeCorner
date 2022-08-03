@@ -12,7 +12,9 @@ struct CheckoutView: View {
     @ObservedObject var order: Order
     
     @State private var confirmationMessage = ""
+    @State private var errorMessage = ""
     @State private var showingConfirmation = false
+    @State private var showingError = false
     
     var body: some View {
         ScrollView {
@@ -44,6 +46,16 @@ struct CheckoutView: View {
         } message: {
             Text(confirmationMessage)
         }
+        .alert("Error", isPresented: $showingError) {
+            Button("Dismiss") { }
+            Button("Try Again") {
+                Task {
+                    await placeOrder()
+                }
+            }
+        } message: {
+            Text(errorMessage)
+        }
     }
     
     func placeOrder() async {
@@ -65,6 +77,8 @@ struct CheckoutView: View {
             showingConfirmation = true
         } catch {
             print("Checkout failed")
+            errorMessage = "There was an error placing your order. Please check your internet connection and try again. If you continue to have trouble, please contact me at dev@cupcakecorner.io"
+            showingError = true
         }
     }
 }
