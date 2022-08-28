@@ -27,6 +27,8 @@ struct CheckoutView: View {
                     ProgressView()
                 }
                 .frame(height: 233)
+                // This image/placeholder are not meaningful for VoiceOver
+                .accessibilityHidden(true)
                 
                 Text("Your total is \(orderWrapper.order.cost, format: .currency(code: "USD"))")
                     .font(.title)
