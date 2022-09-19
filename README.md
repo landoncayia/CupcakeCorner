@@ -2,9 +2,15 @@
 
 A basic iOS app used to order cupcakes from a fictional service. With the app, people will be able to select how many cupcakes they want, select which type they want, and set special options.
 
-## Installing / Getting started 
+## Installing / Getting started
+
+To run this project, you will need a Mac computer with the latest version of Xcode and an iOS 15 Simulator set up. Simply clone the respository, open the project in Xcode, and run the app to get it working. 
 
 ## Features
+
+* Select a flavor, quantity, and special request options for a fictional cupcake order
+* Fill out form with address info
+* Confirm final order amount, then place it
 
 ## Credit
 
